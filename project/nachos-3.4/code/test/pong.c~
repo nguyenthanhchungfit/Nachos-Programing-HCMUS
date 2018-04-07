@@ -1,0 +1,11 @@
+#include "syscall.h"
+
+int main()
+{
+	int i;
+	Wait("sub");	
+	for(i =0; i< 1000; i++)
+	{
+		PrintChar('B');
+	}
+}
